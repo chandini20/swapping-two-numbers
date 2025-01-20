@@ -7,10 +7,10 @@ int main(){
     printf("enter a,b");
     scanf("%d %d",&a,&b);
     if(a!='0' && b!='0'){ //b!=0
-        //a=a*b; 
-        //b=a/b;
-        //a=a/b;
-        a=(a+b)-(b=a);
+        a=a*b; 
+        b=a/b;
+        a=a/b;
+        // single line approach a=(a+b)-(b=a);
         printf("a:%d b:%d",a,b);
     }
     else{
